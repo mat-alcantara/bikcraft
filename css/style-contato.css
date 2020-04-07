@@ -1,0 +1,61 @@
+/* Introdução */
+.introducao-interna.interna-contato {
+    background: url(../img/contato-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.introducao-interna.interna-contato h1 {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+ /* Orçamento  */
+
+ label {
+     color: #d54730;
+ }
+.dados-contato ul li {
+    padding: 2px 0px;
+}
+
+.dados-contato ul li:nth-of-type(4) {
+    margin-bottom: 5px;
+}
+
+.dados-contato h3 {
+    color: #d54730;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.dados-contato.icones-sociais img {
+        display: inline-block;
+    }
+
+.separador-dados {
+    margin-top: 30px;
+}
+
+.dados-contato .icones-sociais li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.dados-contato .icones-sociais img {
+    border: 2px solid #d54730;
+    padding: 6px;
+}
+
+.dados-contato .icones-sociais img:hover {
+    border: 2px solid #f2ead6;
+}
+    /* Mapa */
+.mapa {
+    clear: both;
+    margin: 0 auto;
+    padding: 60px 0px 60px 0px;
+}

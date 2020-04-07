@@ -1,0 +1,56 @@
+/* Introdução */
+
+.introducao-interna.interna-sobre {
+    background: url("../img/bg-sobre.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.introducao-interna.interna-sobre h1 {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+/* História */
+
+.missao-sobre {
+    width: 100%;
+    background: #f2ead6;
+    padding: 40px 0px 40px 0px;
+}
+
+.missao-sobre p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #1e1e1e;
+    max-width: 513px;
+}
+
+.missao-sobre h2 {
+    text-align: left;
+}
+
+.missao-sobre h2:after {
+    margin-left: 0px;
+}
+
+.missao-sobre img {
+    padding-top: 20px;
+}
+
+/* Qualidade */
+.qualidade-sobre {
+    width: 100%;
+    background: #f2ead6;
+    padding: 40px 0px 60px 0px;
+}
+
+.qualidade-sobre ul li p {
+    color: #1e1e1e;
+}
+
+.qualidade-sobre ul {
+    overflow: auto;
+}

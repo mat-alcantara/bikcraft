@@ -1,0 +1,162 @@
+/*  Introdução */
+
+.introducao-interna.interna-produtos {
+  background: url("../img/produtos-bg.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.introducao-interna.interna-produtos h1 {
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* Produtos */
+
+.produtos-bg {
+  width: 100%;
+  background: #1e1e1e;
+  padding: 20px 0px 20px 0px;
+  color: #1e1e1e;
+}
+
+.produtos-item h2 {
+  font-size: 36px;
+  line-height: 60px;
+  color: #f2ead6;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  position: relative;
+  top: -180;
+}
+
+.produtos-item h2:before,
+.produtos-item h2:after {
+  content: "";
+  display: block;
+  background: #f2ead6;
+  width: 90px;
+  height: 4px;
+  margin: 0 auto;
+}
+
+.produtos-item div {
+  height: 280px;
+}
+
+.produtos-item div:nth-of-type(3),
+.produtos-item div:nth-of-type(4) {
+  margin-top: 20px;
+}
+
+.produto-logo img {
+  margin: 0 auto;
+}
+
+.produto-info {
+  background: #f2ead6;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.produto-info p {
+  font-size: 18px;
+  line-height: 25px;
+  padding: 39px 40px;
+  text-align: center;
+}
+
+.produto-info ul li {
+  background: #d54730;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 229px;
+  height: 50px;
+  float: left;
+  text-align: center;
+  padding-top: 14px;
+  letter-spacing: 0.1em;
+}
+
+.produto-info ul li:nth-of-type(1),
+.produto-info ul li:nth-of-type(3) {
+  margin-right: 2px;
+}
+
+.produto-info ul li:nth-of-type(1),
+.produto-info ul li:nth-of-type(2) {
+  margin-bottom: 2px;
+}
+
+.item-passeio {
+  padding-top: 40px;
+}
+
+.item-retro {
+  padding-bottom: 60px;
+}
+
+/* Orçamento */
+.orcamento-bg {
+  padding: 40px 0px 60px 0px;
+  background: #f2ead6;
+  width: 100%;
+}
+
+.id-orcamento {
+  float: left;
+}
+
+.form {
+  padding-right: 60px;
+}
+
+.form label {
+  display: block;
+  padding: 10px 0px 10px 0px;
+  font-weight: bold;
+}
+
+.form input, .form textarea {
+  background: #1e1e1e;
+  width: 100%
+}
+
+.form textarea {
+  height: 80px;
+}
+
+.form .btn {
+  margin-top: 10px;
+  padding: 0px 26px;
+}
+
+.dados-orcamento {
+  padding-top: 10px;
+}
+
+.dados-orcamento h3 {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: bold;
+}
+
+.dados-orcamento ul li {
+  padding: 5px 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.dados-orcamento ul:nth-of-type(2) {
+  color: #d54730;
+}
+
+.dados-orcamento ul:nth-of-type(2) li:nth-of-type(odd) {
+  background: #1e1e1e;
+  width: 220px;
+}

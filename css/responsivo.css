@@ -1,0 +1,218 @@
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  /* Qualidade */
+  .qualidade:after {
+    right: 99px;
+  }
+
+  .qualidade ul li {
+    padding: 0px;
+  }
+
+  .qualidade ul li.grid-1-3.qualidade-esquerda {
+    padding: 0px;
+  }
+
+  .qualidade ul li.grid-1-3.qualidade-direita {
+    padding: 0px;
+  }
+
+  /* Footer */
+  .footer p {
+    width: 250px;
+  }
+
+  .copy p {
+    width: 100%;
+  }
+
+  /* Produtos */
+  .produtos-item h2 {
+    top: -150;
+  }
+
+  .produtos-item div {
+    height: 220px;
+  }
+
+  .produto-info p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px 30px;
+  }
+
+  .produto-info ul li {
+    width: 181px;
+    height: 49px;
+  }
+
+  .produtos-item .produto-logo img {
+    height: auto;
+  }
+}
+/* Fim do Tablet */
+
+/* CSS para Smartphones */
+@media only screen and (max-width: 767px) {
+  /* Geral */
+  .call-to-action {
+    padding-top: 0px;
+  }
+
+  .header_menu ul li a.menu-ativo {
+    border-color: #1e1e1e;
+  }
+  /* Header */
+  .header {
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  .header img {
+    margin: 0 auto;
+  }
+
+  .header_menu {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .header_menu ul li {
+    margin: 5px;
+  }
+
+  .header_menu ul li a {
+    width: 136px;
+    display: block;
+    border: 2px solid #d54730;
+    float: left;
+    padding: 10 0;
+  }
+
+  .header_menu ul li a:hover {
+    border: 2px solid #1e1e1e;
+  }
+
+  /* Introdução */
+  .introducao {
+    margin-top: 0px;
+    padding-top: 60px;
+    padding-bottom: 0px;
+  }
+
+  .introducao .quote-externo {
+    margin-bottom: 40px;
+  }
+
+  .introducao h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .introducao-interna {
+    margin-top: 0px;
+  }
+
+  /* Qualidade */
+  .qualidade:after {
+    display: none;
+  }
+
+  .qualidade ul li {
+    padding: 0px;
+  }
+
+  .qualidade ul li.grid-1-3.qualidade-esquerda {
+    padding: 0px;
+  }
+
+  .qualidade ul li.grid-1-3.qualidade-direita {
+    padding: 0px;
+  }
+
+  .qualidade ul {
+    padding: 10px 0px;
+  }
+
+  /* Footer */
+  .footer,
+  .footer .subtitulo {
+    text-align: center;
+  }
+
+  .footer .subtitulo:after {
+    margin-left: auto;
+  }
+
+  .footer p {
+    width: 300px;
+  }
+
+  .copy p {
+    width: 100%;
+    letter-spacing: 0;
+  }
+
+  /* Missão */
+  .missao-sobre p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .missao-sobre ul li {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+    /* Produtos */
+    .produtos-item h2 {
+      top: -100;
+      line-height: 40px;
+    }
+  
+    .produtos-item div {
+      height: auto;
+    }
+
+    .produtos-item div:nth-of-type(1) {
+      height: 130px;
+    }
+
+    .produtos-item img {
+      height: auto;
+    }
+
+    .produtos-item .produto-logo img{
+      margin: 0px;
+      width: 300px;
+      height: 300px;
+    }
+  
+    .produto-info p {
+      font-size: 14px;
+      line-height: 20px;
+      padding: 20px 10px;
+    }
+  
+    .produto-info ul li {
+      width: 149px;
+      height: 49px;
+    }
+
+    .item-retro {
+      padding-top: 60px;
+    }
+
+    .item-esporte {
+      padding-top: 60px;
+    }
+
+    /* Contato */
+    .form {
+      padding-right: 0px;
+    }
+    .form .btn {
+      margin-bottom: 20px;
+      padding: 0px 26px;
+    }
+}
+/* Fim do Smartphone */
