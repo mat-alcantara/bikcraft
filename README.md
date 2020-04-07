@@ -1,4 +1,4 @@
-# Foobar
+# Bikcraft
 
 ![screenshot of the website](./img/screenshot.png)
 
